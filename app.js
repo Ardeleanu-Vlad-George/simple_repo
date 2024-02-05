@@ -9,6 +9,8 @@ function newCounter(what){
 
 
 const dogs = newCounter('dogs');
+const cats = newCounter('cats');
 
 
 dogs(); dogs(); dogs();
+cats(); cats();
