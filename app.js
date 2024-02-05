@@ -2,7 +2,7 @@
 function newCounter(what){
     let it = 0;
     function counter(){
-        console.log(it++ + ' ' + what);
+        console.log(`${it++} ${what}`);
     }
     return counter;
 }
